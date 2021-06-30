@@ -15,5 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         whatsAppAdapter = WhatsAppAdapter(supportFragmentManager)
         binding.pager.adapter = whatsAppAdapter
+        binding.tabLayout.setupWithViewPager(binding.pager)
     }
 }

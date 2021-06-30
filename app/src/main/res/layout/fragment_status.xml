@@ -12,6 +12,6 @@
         android:gravity="center"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:text="Statas Fragment" />
+        android:text="Status Fragment" />
 
 </FrameLayout>
